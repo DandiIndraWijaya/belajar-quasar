@@ -30,7 +30,7 @@
           header
           class="text-grey-8"
         >
-          Essential Links
+          My Apps
         </q-item-label>
         <EssentialLink
           v-for="link in essentialLinks"
@@ -61,6 +61,12 @@ const linksData = [
     caption: 'Providing Movies Information around the world',
     icon: 'movie',
     link: 'https://movies-info-96656.web.app/'
+  },
+  {
+    title: 'Top Euro League',
+    caption: 'providing European Football Club Informarion',
+    icon: 'play',
+    link: 'https://top-euro-league.web.app/'
   }
 ]
 
